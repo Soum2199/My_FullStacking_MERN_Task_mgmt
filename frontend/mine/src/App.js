@@ -13,13 +13,12 @@ function App() {
   return (
     <>
     <Navbar/>
-
     <Routes>
       <Route path='/signin' element={<Signin/>}></Route>
       <Route path='/task' element={<TaskManager/>}></Route>
       <Route path='/login' element={<Login/>}></Route>
       <Route path='/about' element={<About/>}></Route>
-      {/* <Route path='/addtask' element={<Usage/>}></Route> */}
+       {/* <Route path='/addtask' element={<Usage/>}></Route> */}
       <Route path='/create' element={<Creating/>}></Route>
       <Route path='/update/:id' element={<Updating/>}></Route>
     </Routes>
