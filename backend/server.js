@@ -66,7 +66,7 @@ app.post("/collecting/taskscollection", async (req, res) => {
         due_date: tk.due_date
     })
     fyd.save()
-    res.send("Finally data send success!.")
+    res.send("Finally data is being send successfully.")
 })
 
 // Creating the signin schema
@@ -179,4 +179,4 @@ app.delete("/delete/:id", async function (req, res) {
 });
 
 const PORT = 9000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server is currently running on port ${PORT}`));
